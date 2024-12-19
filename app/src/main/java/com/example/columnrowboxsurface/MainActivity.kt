@@ -93,7 +93,7 @@ class MainActivity : ComponentActivity() {
         val numbers = listOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 0)
         val first = "+79"
         var second = ""
-        for (i in 0..8) {
+        repeat(9) {
             second += numbers.random().toString()
         }
         val phone = first + second
